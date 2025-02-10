@@ -249,6 +249,7 @@ import {
       backgroundUrl: "./src/assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
+      light: true,
     },
     {
       id: "1",
@@ -257,7 +258,7 @@ import {
       backgroundUrl: "./src/assets/benefits/card-2.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
-      light: true,
+      
     },
     {
       id: "2",
@@ -266,6 +267,7 @@ import {
       backgroundUrl: "./src/assets/benefits/card-3.svg",
       iconUrl: benefitIcon3,
       imageUrl: benefitImage2,
+      light: true,
     },
     {
       id: "3",
@@ -291,6 +293,7 @@ import {
       backgroundUrl: "./src/assets/benefits/card-6.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
+      light: true,
     },
   ];
   
