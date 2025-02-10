@@ -24,13 +24,13 @@ function Hero() {
                 <div className='relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]'>
                     <h1 className='h1 mb-6'>
                     Explore the Possibilities of&nbsp;Deepfake Detection&nbsp;Chatting with {` `}
-                         <span className='inline-block relative'>Fabric AI<img src={curve} width={624} height={28} className='absolute top-full left-0 w-full xl:-mt-2'/></span>
+                         <span className='inline-block relative'>DeepNox<img src={curve} width={624} height={28} className='absolute top-full left-0 w-full xl:-mt-2'/></span>
                     </h1>
                     <p className='body-1 max-w-3xl mx-auto text-n-2 lg:mb-8 mb-6'>
                         Unleash the power of AI to safeguard authenticity.
-                        Ensure trust and security with Fabric AI, the ultimate deepfake detection tool.
+                        Ensure trust and security with DeepNox, the ultimate deepfake detection tool.
                     </p>
-                    <Button href="/pricing" >
+                    <Button href="/pricing" white>
                         Get started
                     </Button>
                 </div>
