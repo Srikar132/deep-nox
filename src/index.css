@@ -17,6 +17,17 @@
     body {
       @apply font-sans bg-n-8 text-n-1 text-base;
     }
+
+
+    .glass {
+      @apply bg-white/10  backdrop-blur-lg text-white font-bold uppercase text-lg 
+      shadow-[inset_2px_2px_5px_rgba(255,255,255,0.2),_2px_2px_5px_rgba(0,0,0,0.3)] 
+      border border-white/20 hover:bg-white/20 transition
+    }
+
+    .upload_card {
+      @apply flex flex-col items-center justify-center rounded-xl gap-5 cursor-pointer scale-90  text-cyan-100 opacity-100 bg-black/10 transition-all duration-200 hover:scale-105 border-purple-300 hover:border hover:bg-n-7 
+    }
   }
   
   .rotate-45 {
@@ -83,3 +94,11 @@
     @apply rotate-[-360deg]
   }
 
+  .custom-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .custom-scroll {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }

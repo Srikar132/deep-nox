@@ -16,8 +16,8 @@ function Notification({title,className}) {
                         </li>
                     ))}
                 </ul>
-                <div className='body-2 text-n-13'>
-                    1m ago
+                <div className='body-2 font-code text-n-13'>
+                    FAKE
                 </div>
             </div>
         </div>

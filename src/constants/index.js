@@ -1,3 +1,4 @@
+import { AlertTriangle, Camera, Eye, SearchIcon } from "lucide-react";
 import {
     benefitIcon1,
     benefitIcon2,
@@ -43,44 +44,33 @@ import {
       url: "#features",
     },
     {
-      id: "1",
-      title: "Pricing",
-      url: "#pricing",
-    },
-    {
       id: "2",
       title: "How to use",
       url: "#how-to-use",
     },
     {
       id: "3",
-      title: "Roadmap",
-      url: "#roadmap",
+      title: "Extension",
+      url: "#extension",
     },
     {
       id: "4",
-      title: "New account",
-      url: "#signup",
-      onlyMobile: true,
-    },
-    {
-      id: "5",
-      title: "Sign in",
-      url: "#login",
+      title: "Detection",
+      url: "/detection",
       onlyMobile: true,
     },
   ];
   
-  export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+  export const heroIcons = [Eye,SearchIcon,AlertTriangle,Camera];
   
   export const notificationImages = [notification4, notification3, notification2];
   
   export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
   
   export const brainwaveServices = [
-    "Photo generating",
-    "Photo enhance",
-    "Seamless Integration",
+    "Upload Asset",
+    "Detection",
+    "Detection Results",
   ];
   
   export const brainwaveServicesIcons = [
@@ -249,6 +239,7 @@ import {
       backgroundUrl: "./src/assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
+      light: true,
     },
     {
       id: "1",
@@ -257,7 +248,7 @@ import {
       backgroundUrl: "./src/assets/benefits/card-2.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
-      light: true,
+      
     },
     {
       id: "2",
@@ -266,6 +257,7 @@ import {
       backgroundUrl: "./src/assets/benefits/card-3.svg",
       iconUrl: benefitIcon3,
       imageUrl: benefitImage2,
+      light: true,
     },
     {
       id: "3",
@@ -291,6 +283,7 @@ import {
       backgroundUrl: "./src/assets/benefits/card-6.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
+      light: true,
     },
   ];
   
