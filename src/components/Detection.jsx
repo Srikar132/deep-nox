@@ -7,6 +7,7 @@ import UploadSection from "./UploadSection";
 import RecognizeBtn from "./RecognizeBtn";
 import BackgroundFilter from "./design/Detection";
 import GetFileModel from "./FileModel";
+import { BottomLine } from "./design/Hero";
 
 function Detection() {
   const navigate = useNavigate();
@@ -16,7 +17,7 @@ function Detection() {
   return (
     <>
       <Section
-        className="pt-[5rem] custom-scroll sm:pt-[8.2rem] z-2 -mt-[5.4rem] h-screen overflow-scroll"
+        className="pt-[5rem]  custom-scroll sm:pt-[8.2rem] z-2 -mt-[5.4rem] h-screen overflow-scroll"
         crosses
         crossesOffset="lg:translate-y-[5.25rem]"
         customPadding
@@ -48,6 +49,7 @@ function Detection() {
         <MyDropzone setFile={setFile} setzIndex={setzIndex} />
       </Section>
       <BackgroundFilter />
+      <BottomLine/>
 
       <Routes>
         <Route path='/result' element={<Result file={file}/>}/>

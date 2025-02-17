@@ -66,7 +66,7 @@ const UploadSection = ({ file, setFile , z }) => {
                 <button onClick={() => {
                   setAcceptTypes(["image/*"])
                   handleUploadClick();
-                }} className="upload_card">
+                }} className="flex flex-col items-center justify-center rounded-xl gap-5 cursor-pointer scale-90  text-cyan-100 opacity-100 bg-black/10 transition-all duration-200 hover:scale-105 border-purple-300 hover:border hover:bg-n-7">
                   <Image color="purple" size={40} />
                   <span className="font-thin text-sm lowercase">
                     upload image
@@ -75,7 +75,7 @@ const UploadSection = ({ file, setFile , z }) => {
                 <button onClick={() => {
                   setAcceptTypes(["video/*"])
                   handleUploadClick();
-                }} className="upload_card border-cyan-500">
+                }} className="flex flex-col items-center justify-center rounded-xl gap-5 cursor-pointer scale-90  text-cyan-100 opacity-100 bg-black/10 transition-all duration-200 hover:scale-105 border-purple-300 hover:border hover:bg-n-7 border-cyan-500">
                   <Video color="cyan" size={40} />
                   <span className="font-thin text-sm lowercase">
                     upload video

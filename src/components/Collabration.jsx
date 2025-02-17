@@ -7,11 +7,13 @@ import {LeftCurve , RightCurve } from './design/Collaboration'
 
 const Collabration = () => {
 
+    
+
   return (
     <Section id={"extension"} crosses className={"z-1 "}>
         <div className='container rounded-xl  lg:flex'>
             <div className='max-w-[25rem]'>
-                <h1 className='h2 mb-4 md:mb-8 '>Seamless Collaboration Against Deepfakes</h1>
+                <h1 className='h2 mb-4 md:mb-8 '>Seamless Deepnox <br /> Browser <br />Extention</h1>
                 <ul className='max-w-[22rem] mb-10 md:mb-14'>
                     {collabContent.map((item) => (
                         <li className='mb-3 py-3' key={item.id}>
@@ -40,7 +42,7 @@ const Collabration = () => {
                     <ul>
                         {collabApps.map((app,index) => (
                             <li key={app.id} className={`absolute rotate-${index*45} top-0 h-1/2 left-1/2 -ml-[1.6rem] origin-bottom`}>
-                                <div className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${index*45} `}>
+                                <div className={`relative  -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${index*45} `}>
                                     <img className='m-auto' src={app.icon} alt={app.title} width={app.width} height={app.height} />
                                 </div>
                             </li>

@@ -47,7 +47,7 @@ function Hero() {
           </p>
 
           <Link to={"/detection"}>
-            <Button white>Get startxed</Button>
+            <Button white>Get started</Button>
           </Link>
         </div>
 

@@ -118,21 +118,21 @@ import {
   ];
   
   export const collabText =
-    "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+    "Seamlessly integrates with your browser to scan images and videos content as you browse.";
   
   export const collabContent = [
     {
       id: "0",
-      title: "Seamless Integration",
+      title: "Browser Integration",
       text: collabText,
     },
     {
       id: "1",
-      title: "Smart Automation",
+      title: "Fasten authenticity",
     },
     {
       id: "2",
-      title: "Top-notch Security",
+      title: "Privacy Protection",
     },
   ];
   
