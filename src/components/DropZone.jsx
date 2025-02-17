@@ -35,7 +35,7 @@ function MyDropzone({setFile , setzIndex}) {
                 </span>
             </div>
           ) :
-          <p className='text-sm font-thin text-n-1/50'>Drag 'n' drop some files here, or click to select files</p>
+          <p className='text-sm font-thin mb-4 text-n-1/50'>Drag 'n' drop some files here, or click to select files</p>
       }
     </div>
   )

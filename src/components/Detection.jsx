@@ -28,10 +28,6 @@ function Detection() {
           <p className="body-1 max-w-3xl text-center mx-auto text-n-1 font-code mb-3">
             Gen v1.1
           </p>
-          <p className="body-1 font-mono max-w-xs text-xs text-center mx-auto text-n-1/50 font-thin lg:mb-8 mb-6 opacity-80">
-            Drag and drop your asset or upload from here and click detect to
-            analyze and you will be provided with information about your asset.
-          </p>
 
             {!!file ? (
               <div className="border rounded-xl p-[3px]

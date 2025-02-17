@@ -1,14 +1,16 @@
+import ImageComparison from "./ImageComparision";
+import LegalInfo from "./LegalInfo";
+import Section from "./Section";
 
 
 function Blog() {
 
     return (
-        <section
-            className="pt-[1rem] custom-scroll  z-2 min-h-screen overflow-scroll container"
-
+        <div 
+            className="pt-[1rem] custom-scroll w-full  z-2 min-h-screen overflow-scroll container"
         >
-            Blog
-        </section>
+           <LegalInfo/>
+        </div>
     )
 }
 
