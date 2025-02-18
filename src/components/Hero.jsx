@@ -1,15 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef,useState } from "react";
 import Section from "./Section";
 import { curve, heroBackground } from "../assets";
 import Button from "./Button";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
-import Generating from "./Generating";
-import CompanyLogos from "./CompanyLogos";
 import Notification from "./Notification";
 import { VideoBar } from "./design/Services";
 import { Link } from "react-router-dom";
+import heroimage from "../assets/hero-analysis.webp"
 
 function Hero() {
   const parallaxRef = useRef(null);
@@ -26,8 +25,7 @@ function Hero() {
         className="px-10 lg:p-10 h-[70vh] items-center justify-center  lg:px-20 mb-30 grid grid-cols-1 lg:grid-cols-2 relative"
         ref={parallaxRef}
       >
-
-        <div className="relative  z-1 max-w-[62re] mx-auto  mb-[4rem] md:mb-20 lg:mb-[6rem] flex flex-col items-center justify-center  w-full  h-full ">
+        <div className="relative  z-1 max-w-[62re] mx-auto  mb-[4rem] md:mb-20 lg:mb-[8rem] flex flex-col items-center justify-center  w-full  h-full ">
           <h1 className="h1  mb-6 text-center ">
             Explore the <br /> Possibilities of&nbsp;Deepfake
             Detection&nbsp;with {` `}
@@ -46,13 +44,16 @@ function Hero() {
             security with DeepNox, the ultimate deepfake detection tool.
           </p>
 
-          <Link to={"/detection"}>
-            <Button white>Get started</Button>
-          </Link>
+          <div className="flex items-center justify-center gap-6">
+            <Link to={"/detection"}>
+              <Button className="text-sm ">Get started</Button>
+            </Link>
+            <Button white className={`text-black text-sm`}>Predict Yourself</Button>
+          </div>
         </div>
 
         <div className=" h-full w-full z-1 flex items-center justify-center">
-          MODEL
+          <img src={heroimage} alt="hero-image" className="" />
         </div>
 
         <div className="absolute opacity-50 -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
@@ -66,7 +67,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
+      <div className="relative mt-40 max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
         <div className="relative z-1 p-0.5 rounded-2xl t">
           <div className="relative bg-n-12 rounded-[1rem]">
             <div className="aspect-[33/40] rounded-b-[0.9rem] md:aspect-[688/490] overflow-hidden lg:aspect-[900/490]">

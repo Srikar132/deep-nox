@@ -21,6 +21,26 @@ import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
 
+//game
+import ai1 from '../assets/game/ai1.jpg'
+import ai2 from '../assets/game/ai2.jpg'
+import ai3 from '../assets/game/ai3.jpg'
+import ai4 from '../assets/game/ai4.jpg'
+import ai5 from '../assets/game/ai5.jpg'
+import ai6 from '../assets/game/ai6.jpg'
+import ai7 from '../assets/game/ai7.jpg'
+import ai8 from '../assets/game/ai8.jpg'
+import ai9 from '../assets/game/ai9.jpg'
+
+import notAi1 from '../assets/game/notAi1.jpg'
+import notAi2 from '../assets/game/notAi2.jpg'
+import notAi3 from '../assets/game/notAi3.jpg'
+import notAi4 from '../assets/game/notAi4.jpg'
+import notAi5 from '../assets/game/notAi5.jpg'
+import notAi6 from '../assets/game/notAi6.jpg'
+import notAi7 from '../assets/game/notAi7.jpg'
+import notAi8 from '../assets/game/notAi8.jpg'
+
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
@@ -74,6 +94,15 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+
+import icon1 from '../assets/collaboration/icon1.webp'
+import icon2 from '../assets/collaboration/icon2.webp'
+import icon3 from '../assets/collaboration/icon3.png'
+import icon4 from '../assets/collaboration/icon4.png'
+import icon5 from '../assets/collaboration/icon5.webp'
+import icon6 from '../assets/collaboration/icon6.webp'
+import googleicon from '../assets/collaboration/googleicon.png'
+import insta from '../assets/collaboration/insta.webp'
   
 export {
   brainwave,
@@ -144,4 +173,29 @@ export {
   instagram,
   telegram,
   twitter,
+  ai1,
+  ai2,
+  ai3,
+  ai4,
+  ai5,
+  ai6,
+  ai7,
+  ai8,
+  ai9,
+  notAi1,
+  notAi2,
+  notAi3,
+  notAi4,
+  notAi5,
+  notAi6,
+  notAi7,
+  notAi8,
+  icon1,
+  icon2,
+  icon3,
+  icon4,
+  icon5,
+  icon6,
+  googleicon,
+  insta
 };

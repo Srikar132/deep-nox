@@ -2,7 +2,7 @@ import { File } from 'lucide-react';
 import React, {useCallback, useEffect} from 'react'
 import {useDropzone} from 'react-dropzone'
 
-function MyDropzone({setFile , setzIndex}) {
+function MyDropzone({setFile }) {
   const onDrop = useCallback(acceptedFiles => {
     if(acceptedFiles.length < 1) {
         return;
@@ -11,14 +11,6 @@ function MyDropzone({setFile , setzIndex}) {
     setFile(acceptedFiles[0]);
   }, [])
   const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop});
-
-  useEffect(() => {
-    if(isDragActive) {
-        setzIndex("z-0");
-    }else {
-        setzIndex("z-1");
-    }
-  } , [isDragActive]);
 
 
 
@@ -35,7 +27,7 @@ function MyDropzone({setFile , setzIndex}) {
                 </span>
             </div>
           ) :
-          <p className='text-sm font-thin text-n-1/50'>Drag 'n' drop some files here, or click to select files</p>
+          <p className='text-sm font-thin mb-4 text-n-1/50'>Drag 'n' drop some files here, or click to select files</p>
       }
     </div>
   )
